@@ -41,6 +41,8 @@ header {
 nav a:hover {
     background-color: white;
     color: #06385f;
+    text-decoration: white;
+
 }
 
 .book, .join {

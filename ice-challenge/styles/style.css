@@ -1,0 +1,43 @@
+body {
+    background-color: gray;
+}
+
+#header-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 70%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: space-evenly;
+    justify-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+}
+
+#desk {
+    border: 15px solid rgb(58, 58, 58);
+    border-radius: 50%;
+    display: block;
+    width: 75%;
+}
+
+#graphic {
+    border: 15px solid rgb(58, 58, 58);
+    border-radius: 50%;
+    display: block;
+    width: 75%;
+}
+
+#person {
+    border: 15px solid rgb(58, 58, 58);
+    border-radius: 50%;
+    display: block;
+    width: 75%;
+}

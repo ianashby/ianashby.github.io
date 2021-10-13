@@ -16,20 +16,20 @@ body {
 #desk {
     border: 15px solid rgb(58, 58, 58);
     margin: auto;
-    border-radius: 100%;
+    border-radius: 50%;
     width: 60%;
 }
 
 #graphic {
     border: 15px solid rgb(58, 58, 58);
     margin: auto;
-    border-radius: 100%;
+    border-radius: 50%;
     width: 60%;
 }
 
 #person {
     border: 15px solid rgb(58, 58, 58);
     margin: auto;
-    border-radius: 100%;
+    border-radius: 50%;
     width: 60%;
 }

@@ -1,0 +1,76 @@
+h1 {
+    color: rgb(78, 78, 78);
+    text-align: center;
+    font-weight: bold;
+    font-size: 75px;
+    grid-column: 2/4;
+}
+h2 {
+    color: rgb(78, 78, 78);
+    text-align: center;
+    font-weight: normal;
+    grid-column: 2/4;
+}
+#text {
+    text-align: center;
+    grid-column: 2/4;   
+    font: 1rem 'Fira Sans', sans-serif;
+    margin: 25px;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+#email {
+    border-radius: 5px;
+    font-size: 15px;
+    width: 500px;
+    height: 42px;
+    grid-column: 2/4;
+}
+#name {
+    border-radius: 5px;
+    font-size: 15px;
+    width: 500px;
+    height: 42px;
+    grid-column: 2/4;
+    margin: 10px auto;
+}
+
+#checkbox {
+    grid-column: 2/4;
+    text-align: center;
+    font: 1em 'Fira Sans', sans-serif;
+    color: rgb(78, 78, 78);
+    margin: 0 auto;
+}
+
+#img {
+    grid-column: 1/2;
+    grid-row: 1/4;
+    width: 255 px;
+    overflow: hidden;
+}
+
+#button {
+    background-color: orange; /* Green */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    font: 1em 'Fira Sans', sans-serif;
+}
+.button {
+    grid-column: 2/4;
+    box-align: center;
+    margin: 0 auto;
+}

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&family=Ubuntu:wght@300;400&display=swap');
+body {
+    /* display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr; */
+    border: 3px solid black;
+    margin: 0 auto;
+    max-width: 750px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(88, 88, 88);
+    
+}
+
+.challenge01 {
+    text-align: center;
+    max-height: 300px;
+}
+.iconC01 {
+    font-size: 128px;
+    color: green;
+    opacity: 0.5;
+}
+
+.challenge02 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    border-radius: 1px;
+    border-top: 2px solid black
+}
+.tower-image {
+    margin-top: 40px;
+    width: 80%;
+}
+.iconC03 {
+    font-size: 128px;
+    color: red;
+    opacity: 0.5;
+}
+.challenge02 h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Open Sans';
+}
+.challenge02 h3 {
+    text-align: center;
+}
+.button02 {
+    width: 95px;
+    height: 50px;
+    background: rgb(85, 128, 207);
+    border-radius: 10px;
+    border-color: white;
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto';
+    margin-bottom: 40px;
+}
+.challenge03 {
+    text-align: center;
+    font-weight: lighter;
+    border-top: 2px solid black
+}
+
+#question {
+    color: rgb(85,157,246);
+}
+
+/* CSS for Challenge 04 */
+.challenge04 {
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid black
+}
+
+#x-mark {
+    text-align: right;
+    color: gray;
+}
+/* unvisited link */
+a:link {
+    color: rgb(85,157,246);
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(85,157,246);
+    text-decoration: none;
+  }
+
+#great {
+    background-color: rgb(111, 165, 226);
+    color: white;
+    width: 125px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+#thumb-down {
+    background-color: gray;
+    color: white;
+    width: 75px;
+    height: 50px;
+    border-radius: 10px;
+
+}

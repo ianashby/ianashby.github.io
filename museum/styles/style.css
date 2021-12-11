@@ -77,13 +77,13 @@ footer a:hover {
 }
 
 .logo {
-    height: 250px;
-    margin-top: -80PX;
     overflow: hidden;
     filter: invert(1);
     grid-column: 1/2;
-    zoom: 125%;
+    margin-top: 25px;
+    margin-left: 25px;
 }
+
 
 
 /* home page */
@@ -168,6 +168,10 @@ footer a:hover {
 #events {
     grid-column: 9/11;
     padding-left: 15px;
+}
+
+#events, #about-us h1 {
+    font-family: "EB Garamond", Arial, Helvetica, sans-serif;
 }
 
 #about-us {
@@ -468,4 +472,88 @@ footer a:hover {
 #art4-text a {
     color: #DFA253;
     font-size: .5em;
+}
+
+#contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: -250px;
+}
+
+form {
+    margin: 0 auto;
+}
+
+form ul li {
+    list-style: none;
+}
+
+#feedback {
+    margin: 0 auto;
+    margin: 25px;
+    margin-right: 250px;
+    text-align: center;
+    font-family: "EB Garamond", Arial, Helvetica, sans-serif;
+}
+
+#name, #mail {
+    width: 500px;
+    height: 25px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 0;
+    padding: 8px;
+    font-size: medium;
+}
+
+#msg {
+    width: 500px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 0;
+    padding: 8px;
+    font-size: medium;
+}
+
+form button {
+    width: 520px;
+    height: 35px;
+    margin: 10px;
+    background-color: #DFA253;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: .7em;
+    color: rgb(255, 247, 223);
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+
+#about {
+    margin: 25px;
+    margin-left: 250px;
+}
+
+#about h1 {
+    text-align: center;
+    font-family: "EB Garamond", Arial, Helvetica, sans-serif;
+}
+
+#about p {
+    font-size: .75em;
+    line-height: 1.5em;
+}
+
+#contact-img {
+    display: flex;
+    justify-content: center;
+}
+
+#gallery-hero-img2 {
+    margin-top: 25px;
+    width: 25%;
+    filter: invert(1);
+
 }

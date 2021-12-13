@@ -200,6 +200,7 @@ footer a:hover {
     padding-right: 10px; */
     margin: 0 auto;
     width: max-content;
+    margin-bottom: 150px;
 }
 
 #civil-img {
@@ -239,7 +240,7 @@ footer a:hover {
 #civil-msg {
     grid-column: 4/6;
     grid-row: 2/3;
-    margin-top: -500px;
+    margin-top: -600px;
     font-family: "EB Garamond", Arial, Helvetica, sans-serif;
     text-align: center;
 }

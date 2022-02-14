@@ -10,11 +10,11 @@ from textblob import TextBlob
 
 # Connect to Twitter APi and create client.
 # Replace each token/key with your own by creating a Twitter dev account.
-BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAAB6yZAEAAAAAMuHwWB2hiWb%2Bv%2FILbzZuCYi51DE%3DGwvDUX8kktpBT65IwgLHG6sgoWVngdtgba6213JgChtFN1oQwR"
-API_KEY = "KeoAgqKxUbPxODOkTtqJ1KuCw"
-API_SECRET_KEY = "wi68q2U2S82wXruHDNiWu51btFfL9bF1nQXVf8SqNmuy5G1Zrp"
-ACCESS_TOKEN = "1338360874856116225-x4sSI5BhfBcIXR5LYfq5mtCEMjkqIK"
-ACCESS_TOKEN_SECRET = "7ROvgNUxWlq7AHIgfk5kPZyNcUlzd5XaXxkz0jrLaV5nQ"
+BEARER_TOKEN = ""
+API_KEY = ""
+API_SECRET_KEY = ""
+ACCESS_TOKEN = ""
+ACCESS_TOKEN_SECRET = ""
 
 client = tweepy.Client( bearer_token=BEARER_TOKEN,
                         consumer_key=API_KEY,

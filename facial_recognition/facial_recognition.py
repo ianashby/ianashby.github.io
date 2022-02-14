@@ -1,12 +1,13 @@
 """
 Ian Ashby
 Facial Recognition
+
+Use CV2 to detect face, then use Deepface to analyze the emotion being displayed. 
 """
 
 import cv2
 from deepface import DeepFace
 from collections import Counter
-import collections
 
 # Use the frontalface Haar cascade to scan for face on screen.
 face_cascades = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_alt.xml')

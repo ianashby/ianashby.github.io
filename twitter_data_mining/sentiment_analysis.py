@@ -1,6 +1,8 @@
 """
 Ian Ashby
 Twitter Data Mining Project
+
+Get username from input, retrieve recent tweets, and perform a sentiment analysis on them.
 """
 # Import packages
 import pandas as pd

@@ -8,7 +8,7 @@ import tweepy
 import requests
 from textblob import TextBlob
 
-# Connect to Twitter APi and create client.
+# Connect to Twitter API and create client.
 # Replace each token/key with your own by creating a Twitter dev account.
 BEARER_TOKEN = ""
 API_KEY = ""
@@ -29,9 +29,7 @@ username = input("\nWho's tweets would you like to analyze? ")
 
 # Use the username from input and filter out retweets, so we get original content from their timeline.
 query = f'from:{username} -is:retweet'
-tweets_query = client.search_recent_tweets(query=query, 
-                                    tweet_fields=['author_id', 'created_at'],
-                                     max_results=100)
+tweets_query = client.search_recent_tweets(query=query, max_results=100)
 
 # Save the data/query as dictionary. Extract the data.
 tweets_dict = tweets_query.json() 
